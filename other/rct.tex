@@ -1,0 +1,67 @@
+\documentclass[dvipdfmx,uplatex]{jsarticle}
+\usepackage{macros}
+\usepackage{phe}
+\usepackage[version=3]{mhchem}
+ 
+\begin{document}
+\subsection{検出反応}
+\begin{table}[htb]
+	\begin{tabular}{|l|l|l|}
+	反応名や検出剤 & 反応物 & 呈色,反応 \\ \hline \hline
+	ビウレット反応 & タンパク質 & 赤紫\footnotemark \\
+	キサントプロテイン反応&ベンゼン環を含むタンパク質&黄色沈殿$\xrightarrow{塩基性}$橙黄色\footnotemark \\
+	ニンヒドリン反応&アミノ酸(濃度で濃淡変化)&青紫,赤紫\footnotemark \\
+	硫黄反応&\ce{S}を含むタンパク質&黒色沈殿;硫化鉛\ce{PbS}\footnotemark \\
+	フェーリング反応&還元性物質\footnotemark&赤褐色沈殿;酸化銅(I)\ce{Cu2O}\footnotemark \\
+	銀鏡反応& & 黒色沈殿\ce{Ag}\footnotemark \\
+	シッフ試薬(フクシンアルデヒド試薬)&アルデヒド(ケトンは不活性)&赤,紫\footnotemark \\
+	臭素水&二重,三重結合&脱色 \\
+	ナトリウム&アルコール,フェノール&(アルコキシド,\ce{H2}の発生) \\
+	カリウム& & \\
+	二クロム酸カリウム&第一,二級アルコール&(アルデヒド,ケトンの生成) \\
+	 &アニリン\ce{{\phenyl} NH2}&黒色沈殿;アニリンブラック \\
+	塩化鉄(III):\ce{FeCl3}&フェノール類\ce{{\phenyl} OH}&赤紫,青紫\footnotemark \\
+	さらし粉:\ce{CaCl(ClO).H2O}&アニリン{{\phenyl} NH2}\footnotemark \\
+	ヨウ素デンプン反応&デンプン&青紫 \\
+	ヨウ化カリウムデンプン紙&酸化作用物質&青変\footnotemark \\
+	褐輪反応&\ce{NO3-, NO2-}&褐色環\footnotemark \\
+	ヨードホルム反応&アセチル基:\ce{CH3CO -}&黄色\footnotemark
+	\end{tabular}
+\end{table}
+
+\addtocounter{footnote}{-13} % 表中で使った脚注の数だけfootnoteカウンタから引く
+\stepcounter{footnote}\footnotetext{連続2つ以上のペプチド結合が銅イオン\ce{Cu^2+}とキレートを作る}
+\stepcounter{footnote}\footnotetext
+{
+	TyrやPheのベンゼン環がニトロ化し黄色.
+	とりわけフェノール性ヒドロキシ基のo,p-配向性でTyrと起こりやすく,
+	塩基性にすると\ce{-OH}から\ce{H+}が脱離,キノン構造ができ発色が濃くなる.
+}
+\stepcounter{footnote}\footnotetext{ニンヒドリンと$\alpha$-アミノ酸からルーヘマン紫が生じる}
+\stepcounter{footnote}\footnotetext{\ce{NaOH(s)}を加えて加熱,中和後酢酸鉛(II)aq:\ce{(CH3COO)2Pb}を加える}
+\stepcounter{footnote}\footnotetext{アルデヒドや糖類など.}
+\stepcounter{footnote}\footnotetext
+{
+	\ce{CuSO4 + $ロッシェル塩$ + NaOH + R - CHO -> Cu2O} \\
+	Fehling液はA液:\ce{CuSO4aq}と
+	B液:\ce{KOOCCH(OH)CH(OH)COONa + NaOH}を直前に混合して生成.
+	\ce{Cu2+}を酒石酸イオンのキレート錯体でアルカリから保護している.
+}
+\stepcounter{footnote}\footnotetext{\ce{[Ag(NH3)2]+ + e- -> Ag + 2NH3}(還元反応)}
+\stepcounter{footnote}\footnotetext{マゼンタaqに\ce{SO2}を作用させて生成.ケトンと反応しにくいのは周囲の基からの電子給与や立体障害による.}
+\stepcounter{footnote}\footnotetext{\ce{Fe^3+}に\ce{{\phenyl} O-}が配位.\ce{O}から\ce{Fe^3+}の3d軌道へ電子が遷移することによる呈色.}
+\stepcounter{footnote}\footnotetext{強い酸化剤である\ce{ClO-}により酸化される.}
+\stepcounter{footnote}\footnotetext{\ce{2I- -> I2 + 2e-}と酸化され,ヨウ素デンプン反応を起こす.}
+\stepcounter{footnote}\footnotetext
+{
+	\ce{NO3-}と\ce{FeSO4}を含む水溶液に濃硫酸を注ぐと濃硫酸が沈み込み,
+	境界面で\ce{NO3-}が\ce{Fe^2+}を酸化し,\ce{NO}を生じる.これが配位し,
+	\ce{[Fe(NO)(H2O)5]^2+}(褐色)が生成して呈色.
+}
+\stepcounter{footnote}\footnotetext
+{
+	ハロホルム反応の一種.一般にはアセチル基を持つ有機化合物に
+	ハロゲン化剤と塩基を作用させると,トリハロメタン(ハロホルム)が得られる: \\
+	\ce{CH3CO - R $\xrightarrow[Base]{{\rm X_2}}$ R - COO- + CHX3}
+}
+\end{document}
