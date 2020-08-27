@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2020.7.4)  27 AUG 2020 13:21
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2020.7.4)  28 AUG 2020 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,84 +285,104 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 \mhchem@option@minustextsidebearingright=\dimen177
 LaTeX Info: Redefining \cf on input line 3423.
 )
-(./theo.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (./theo.aux)
 \openout1 = `theo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
 )
 
-Package chemgreek Info: Activating mapping `default' on line 5.
+Package chemgreek Info: Activating mapping `default' on line 6.
 
 \docmute@nestinglevel=\count270
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 7.
+(Font)              scaled to size 11.09619pt on input line 8.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 7.
+(Font)              scaled to size 11.09619pt on input line 8.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 7.
+(Font)              scaled to size 11.09619pt on input line 8.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 7.
+(Font)              scaled to size 11.09619pt on input line 8.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 8.
+(Font)              scaled to size 9.24683pt on input line 9.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 8.
-
-[1
-
-]
+(Font)              scaled to size 9.24683pt on input line 9.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 35.
+(Font)              scaled to size 13.31541pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(Font)              scaled to size 6.47278pt on input line 24.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 35.
+(Font)              scaled to size 6.47278pt on input line 24.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 35.
+(Font)              scaled to size 4.62341pt on input line 24.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <10> not available
+(Font)              Font shape `JT2/mc/bx/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 62.
+LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <10> not available
+(Font)              Font shape `JY2/mc/bx/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 62.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 52.
+(Font)              scaled to size 6.47278pt on input line 71.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 52.
+(Font)              scaled to size 4.62341pt on input line 71.
  [2] [3] [4]
 (./theo.aux) ) 
 Here is how much of TeX's memory you used:
- 4275 strings out of 482787
- 75658 string characters out of 5957709
- 358866 words of memory out of 5000000
- 19537 multiletter control sequences out of 15000+600000
- 543009 words of font info for 79 fonts, out of 8000000 for 9000
+ 4364 strings out of 482787
+ 76815 string characters out of 5957709
+ 360866 words of memory out of 5000000
+ 19620 multiletter control sequences out of 15000+600000
+ 544097 words of font info for 84 fonts, out of 8000000 for 9000
  314 hyphenation exceptions out of 8191
- 41i,23n,54p,623b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,23n,54p,1044b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on theo.dvi (4 pages, 14392 bytes).
+Output written on theo.dvi (4 pages, 14284 bytes).
