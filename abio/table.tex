@@ -1,0 +1,47 @@
+\documentclass[dvipdfmx,uplatex]{jsarticle}
+\usepackage{macros}
+\usepackage[version=3]{mhchem}
+\usepackage{url}
+\usepackage{lscape}
+
+\begin{document}
+\begin{landscape}
+\begin{table}
+\begin{center}
+\caption{沈殿生成表}
+	\small
+	\begin{tabular}{|lllllllllllll|}
+		&(aq)&\ce{Cl-}&\ce{SO4^2-}&Dil\ce{OH-}&Con\ce{OH-}&Dil\ce{NH3}&Con\ce{NH3}
+		&\ce{S^2-}(B,N)&\ce{S^2-}(A)&\ce{CO3^2-}\footnotemark&\ce{CrO4^2-}&others\\
+	\ce{K+}&&&&&&&&&&&&\\
+	\ce{Na+}&&&&&&&&&&&&\\
+	\ce{Ca^2+}&&&\ce{CaSO4}\footnotemark&&&&&&&\ce{CaCO3}&&\\
+	\ce{Ba^2+}&&&\ce{BaSO4}&&&&&&&\ce{BaCO3}&\ce{BaCrO4}黄&\\
+	\ce{Mg^2+}&&&&\ce{Mg(OH)2}&\ldots&\ldots&\ldots&&&\ce{MgCO3}&&\\
+	\ce{Al^3+}&&&&\ce{Al(OH)3}白ゲル&\ce{[Al(OH)4]-}&\ce{Al(OH)3}&\ldots&\ce{Al(OH)3}\footnotemark&&沈&&\\
+	\ce{Zn^2+}\footnotemark&&&&\ce{Zn(OH)2}&\ce{[Zn(OH)2]}&\ce{Zn(OH)2}&\ce{[Zn(NH3)2]+}&\ce{ZnS}白&&沈&&\\
+	\ce{Fe^2+}
+	&淡緑&&&\ce{Fe(OH)2}緑白&\ldots&\ldots&\ldots&\ce{FeS}黒&&沈&&\footnotemark\\
+	\ce{Fe^3+}
+	&黄褐&&&\ce{Fe(OH)3}赤褐&\ldots&\ldots&\ldots&\ce{FeS}&&沈&&\footnotemark\\
+	\ce{Sn^2+}
+	&&&&\ce{Sn(OH)2}&\ce{[Sn(OH)4]^2-}&\ce{Sn(OH)2}&\ldots&\ce{SnS}&\ce{SnS}&沈&&\\
+	\ce{Pb^2+}&&\ce{PbCl2}\footnotemark&\ce{PbSO4}&\ce{Pb(OH)2}&\ce{[Pb(OH)4]^2-}&\ce{Pb(OH)2}&\ldots&\ce{PbS}暗褐&\ce{PbS}&沈&\ce{PbCrO4}&\\
+	\ce{Cu^2+}&青&&&\ce{Cu(OH)2}\footnotemark 青白ゲル&\ldots&\ldots&\ce{[Cu(NH3)4]^2+}深青&\ce{CuS}&\ce{CuS}&沈&&\\
+	\ce{Ag^2+}&&\ce{AgCl}\footnotemark&&\ce{Ag2O}暗褐&\ldots&\ldots&\ce{[Ag(NH3)2]+}&\ce{Ag2S}&\ce{Ag2S}&沈&\ce{Ag2CrO4}&
+	\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\caption{鉄イオンの反応}
+	\begin{tabular}{|llll|}
+	 &\ce{[Fe(CN)6]^4-}&\ce{[Fe(CN)6]^3-}&\ce{KSCN} \\
+	\ce{Fe^2+}&\ce{KFe[Fe(CN)6].H2O} 青白&\ce{Fe4[Fe(CN)6]3} 濃青色\footnotemark& \\
+	\ce{Fe^3+}&\ce{Fe4[Fe(CN)6]3} 濃青色&(褐色)&\ce{[Fe(SCN)_n]^{3 \textasciitilde n}}(n=1 \textasciitilde 6) 血赤\footnotemark \\
+	\end{tabular}
+\end{table}
+\end{landscape}
+%\addtocounter{footnote}{-13} % 表中で使った脚注の数だけfootnoteカウンタから引く
+%\stepcounter{footnote}\footnotetext{}
+\end{document}
