@@ -1,5 +1,5 @@
 \documentclass[dvipdfmx,uplatex]{jsarticle}
-\usepackage{macros}
+\usepackage{../sty/macros}
 \usepackage[version=3]{mhchem}
 \usepackage{url}
 \usepackage{lscape}
@@ -11,7 +11,7 @@
 \caption{沈殿生成表}
 	\small
 	\begin{tabular}{|lllllllllllll|}
-		&(aq)&\ce{Cl-}&\ce{SO4^2-}&Dil\ce{OH-}&Con\ce{OH-}&Dil\ce{NH3}&Con\ce{NH3}
+		&(aq)&\ce{Cl-}&\ce{SO4^2-}&Dil\ce{ OH-}&Con\ce{ OH-}&Dil\ce{ NH3}&Con\ce{ NH3}
 		&\ce{S^2-}(B,N)&\ce{S^2-}(A)&\ce{CO3^2-}\footnotemark&\ce{CrO4^2-}&others\\
 	\ce{K+}&&&&&&&&&&&&\\
 	\ce{Na+}&&&&&&&&&&&&\\
@@ -21,9 +21,9 @@
 	\ce{Al^3+}&&&&\ce{Al(OH)3}白ゲル&\ce{[Al(OH)4]-}&\ce{Al(OH)3}&\ldots&\ce{Al(OH)3}\footnotemark&&沈&&\\
 	\ce{Zn^2+}\footnotemark&&&&\ce{Zn(OH)2}&\ce{[Zn(OH)2]}&\ce{Zn(OH)2}&\ce{[Zn(NH3)2]+}&\ce{ZnS}白&&沈&&\\
 	\ce{Fe^2+}
-	&淡緑&&&\ce{Fe(OH)2}緑白&\ldots&\ldots&\ldots&\ce{FeS}黒&&沈&&\footnotemark\\
+	&淡緑&&&\ce{Fe(OH)2}緑白&\ldots&\ldots&\ldots&\ce{FeS}黒&&沈&&(表2)\\
 	\ce{Fe^3+}
-	&黄褐&&&\ce{Fe(OH)3}赤褐&\ldots&\ldots&\ldots&\ce{FeS}&&沈&&\footnotemark\\
+	&黄褐&&&\ce{Fe(OH)3}赤褐&\ldots&\ldots&\ldots&\ce{FeS}&&沈&&(表2)\\
 	\ce{Sn^2+}
 	&&&&\ce{Sn(OH)2}&\ce{[Sn(OH)4]^2-}&\ce{Sn(OH)2}&\ldots&\ce{SnS}&\ce{SnS}&沈&&\\
 	\ce{Pb^2+}&&\ce{PbCl2}\footnotemark&\ce{PbSO4}&\ce{Pb(OH)2}&\ce{[Pb(OH)4]^2-}&\ce{Pb(OH)2}&\ldots&\ce{PbS}暗褐&\ce{PbS}&沈&\ce{PbCrO4}&\\
@@ -42,6 +42,13 @@
 	\end{tabular}
 \end{table}
 \end{landscape}
+
+\newpage
+
+\subsection{不動態}
+\ce{Al, Cr, Fe, Ni, Co}などは\ce{Dil HNO3}にとけるが、\ce{Con HNO3}には酸化被膜を形成しとけない。\\
+この性質は\ce{Be, Ca, Ba, Ti, Pb}などでも硫酸との反応で近いものがある。
+
 %\addtocounter{footnote}{-13} % 表中で使った脚注の数だけfootnoteカウンタから引く
 %\stepcounter{footnote}\footnotetext{}
 \end{document}

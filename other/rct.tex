@@ -1,12 +1,13 @@
 \documentclass[dvipdfmx,uplatex]{jsarticle}
-\usepackage{macros}
-\usepackage{phe}
+\usepackage{../sty/macros}
+\usepackage{../sty/phe}
 \usepackage[version=3]{mhchem}
 \usepackage{url}
  
 \begin{document}
 \subsection{検出反応}
 \begin{table}[htb]
+\caption{代表的な検出反応}
 	\begin{tabular}{|l|l|l|}
 	反応名や検出剤 & 反応物 & 呈色,反応 \\ \hline \hline
 	ビウレット反応 & タンパク質 & 赤紫\footnotemark \\
@@ -26,7 +27,7 @@
 	ヨウ素デンプン反応&デンプン&青紫 \\
 	ヨウ化カリウムデンプン紙&酸化作用物質&青変\footnotemark \\
 	褐輪反応&\ce{NO3- , NO2-}&褐色環\footnotemark \\
-	ヨードホルム反応&アセチル基:\ce{CH3CO - R}&黄色\footnotemark
+	ヨードホルム反応&アセチル基:\ce{CH3CO - R}&黄色\footnotemark \\ \hline
 	\end{tabular}
 \end{table}
 
@@ -69,101 +70,106 @@
 
 \newpage
 
-\url{https://labchem-wako.fujifilm.com/jp/category/synthesis/organic_synthesis/name_reaction/index.html}
-\begin{table}[htb]
-\caption{人名反応一覧}
-	\begin{tabular}{|l|l|}
-Name reaction&	人名反応& \\
-A&& \\
-Appel Reaction&	アッペル反応
-&	第1・2級アルコールのハロゲン化反応 \\
-B&& \\
-Baeyer-Villiger Oxidation&	バイヤー・ビリガー酸化反応
-&	過酸を用いてケトンを酸化しエステルに変換する反応 \\
-Beckmann Rearrangement&	ベックマン転位反応
-&	ケトンから作られたオキシムを経由するN-置換アミド合成反応 \\
-Birch Reduction&	バーチ還元
-&	芳香族化合物の1,4-ジエンへの還元反応 \\
-Borch Reductive Amination&	ボーチ還元的アミノ化反応
-&	NaBH3CNを用いてアルデヒド/ケトンをアミンへ変換する反応 \\
-Brown Hydroboration&	ブラウンヒドロホウ素化反応
-&	ボランがアルケン/アルキンに付加する反応 \\
-Buchwald-Hartwig Cross Coupling&	バックワルド・ハートウィグ クロスカップリング反応
-&	芳香族ハロゲン化物とアミン/アルコキシドのパラジウム触媒によるクロスカップリング反応 \\
-C&& \\
-Cannizzaro Reaction&	カニッツァロ反応
-&	アルデヒドを用いるアルコールとカルボン酸への不均化反応 \\
-Claisen Condensation&	クライゼン縮合
-&	2分子のエステルが塩基の存在下で縮合反応してβ-ケトエステルを生成する反応 \\
-Curtius Rearrangement&	クルチウス転位反応
-&	酸アジドを熱分解することでイソシアネートを得られる反応 \\
-D&& \\
-Diels-Alder Reaction&	ディールス・アルダー反応
-&	共役ジエンにアルケンが付加して6員環構造を生じる反応、[4+2]環状付加反応 \\
-F&& \\
-Friedel-Crafts Acylation&	フリーデル・クラフツ アシル化反応
-&	求電子芳香族置換によるアシル化反応 \\
-Friedel-Crafts Alkylation&	フリーデル・クラフツ アルキル化反応
-&	求電子芳香族置換によるアルキル化反応 \\
-G&& \\
-Gabriel Amine Synthesis&	ガブリエルアミン合成反応
-&	ハロゲン化アルキルとフタルイミドカリウムから一級アミンを合成する反応 \\
-H&& \\
-Horner-Wadsworth-Emmons (HWE) Reaction&	ホーナー・ワズワース・エモンス反応
-&	ホスホン酸ジエステルのイリドがアルデヒドまたはケトンとWittig反応類似の機構を経てα,β-不飽和エステルが得られる反応 \\
-J&& \\
-Jones Oxidation&	ジョーンズ酸化反応
-&	酸化クロム(VI)を用いたアルコールの酸化反応 \\
-K&& \\
-Knoevenagel Condensation&	クネーフェナーゲル縮合反応
-&	活性メチレン化合物をアルデヒド/ケトンと縮合させてアルケンを得る反応 \\
-M&& \\
-Malaprade Glycol Oxidative Cleavage&	マラプラード グリコール酸化開裂反応
-&	過よう素酸もしくは過よう素酸ナトリウムを用いる1,2-ジオール(グリコール)の酸化的開裂反応 \\
-Mannich Reaction&	マンニッヒ反応
-&	第二級アミン・アルデヒド・ケトンを酸性条件下で反応させ、β-アミノカルボニル化合物を得る反応 \\ 
-Mitsunobu Reaction&	光延反応
-&	一級/二級アルコールをアゾカルボン酸エステルとトリフェニルホスフィンで活性化して行なうSN2反応 \\
-Mizoroki-Heck Reaction&	溝呂木・ヘック反応
-&	Pd(0)触媒下で、ハロゲン化アリール/アルケニルを末端オレフィンとクロスカップリングさせ、置換オレフィンを合成する反応 \\
-Mukaiyama Aldol Reaction&	向山アルドール反応
-&	ルイス酸触媒を用いたシリルエノールエーテルとカルボニル化合物とのアルドール反応 \\
-N&& \\
-Negishi Cross Coupling&	根岸クロスカップリング反応
-&	Pd(0)もしくはNi触媒下で進行する有機亜鉛化合物と有機ハロゲン化物のクロスカップリング反応 \\
-P&& \\
-Prilezhaev Epoxidation&	プリリツェフ エポキシ化反応
-&	過酸を用いてオレフィンをエポキシドに変換する反応 \\
-R&& \\
-Robinson Annulation&	ロビンソン環形成反応
-&	Wieland-Miescherケトンを合成する方法 \\
-S&& \\
-Sandmeyer Reaction&	ザンドマイヤー反応
-&	Cu(I)イオン存在下での芳香族ジアゾ化合物の置換基変換反応 \\
-Sharpless-Katsuki Asymmetric Epoxidation&	シャープレス・香月不斉エポキシ化反応
-&	アリルアルコールの不斉エポキシ化 \\
-Sonogashira-Hagihara Cross Coupling&	薗頭・萩原クロスカップリング反応
-&	ハロゲン化アリール/ハロアルカンと、末端アルキンのクロスカップリング反応 \\
-Swern Oxidation&	スワーン酸化反応
-&	ジメチルスルホキシド(DMSO)と塩化オキサリル系によるアルコールの酸化反応 \\
-T&& \\
-Tsuji-Trost Reaction&	辻・トロスト反応
-&	Pd(0)触媒下、π－アリルパラジウム中間体を経由するアリル位置換反応 \\
-V&& \\
-Vilsmeier-Haack Reaction&	ヴィルスマイヤー・ハック反応
-&	DMFとオキシ塩化リン(POCl3)を用いたホルミル化反応 \\
-W&& \\
-Williamson ether synthesis&	ウィリアムソンエーテル合成
-&	アルコキシド/フェノラートとハロゲン化アルキルを経由するエーテルの合成反応 \\
-Wittig Reaction&	ウィッティヒ反応
-&	リンイリドとカルボニル化合物からアルケンを合成する反応 \\
-Wohl-Ziegler Bromination&	ウォール・チーグラー臭素化反応
-&	N-コハク酸イミド(NBS)による臭素化反応 \\
-Wolff-Kishner Reduction&	ウォルフ・キシュナー還元反応
-&	アルデヒドやケトンをヒドラジンと反応させ、ヒドラゾン経由によるメチレンへの還元反応
-
+\begin{table}
+\caption{検出反応2}
+	\begin{tabular}{|l|l|l|}
+	シュバイツァー試薬\ce{[Cu(NH3)4]^2+}&セルロース\ce{(C6H10O5)_n}&銅アンモニアレーヨン \\
+	ネスラー試薬\ce{HgI2, KI}&アンモニア&褐色沈殿\ce{NHg2I} \\
+	無水硫酸銅&水&青色結晶\ce{CuSO4.5H2O}
 	\end{tabular}
 \end{table}
+
+\newpage
+
+\url{https://labchem-wako.fujifilm.com/jp/category/synthesis/organic_synthesis/name_reaction/index.html} \\
+\small
+A \\
+Appel Reaction	アッペル反応
+	第1・2級アルコールのハロゲン化反応 \\
+B \\
+Baeyer-Villiger Oxidation	バイヤー・ビリガー酸化反応
+	過酸を用いてケトンを酸化しエステルに変換する反応 \\
+Beckmann Rearrangement	ベックマン転位反応
+	ケトンから作られたオキシムを経由するN-置換アミド合成反応 \\
+Birch Reduction	バーチ還元
+	芳香族化合物の1,4-ジエンへの還元反応 \\
+Borch Reductive Amination	ボーチ還元的アミノ化反応
+	NaBH3CNを用いてアルデヒド/ケトンをアミンへ変換する反応 \\
+Brown Hydroboration	ブラウンヒドロホウ素化反応
+	ボランがアルケン/アルキンに付加する反応 \\
+Buchwald-Hartwig Cross Coupling	バックワルド・ハートウィグ クロスカップリング反応
+	芳香族ハロゲン化物とアミン/アルコキシドのパラジウム触媒によるクロスカップリング反応 \\
+C \\
+Cannizzaro Reaction	カニッツァロ反応
+	アルデヒドを用いるアルコールとカルボン酸への不均化反応 \\
+Claisen Condensation	クライゼン縮合
+	2分子のエステルが塩基の存在下で縮合反応してβ-ケトエステルを生成する反応 \\
+Curtius Rearrangement	クルチウス転位反応
+	酸アジドを熱分解することでイソシアネートを得られる反応 \\
+D \\
+Diels-Alder Reaction	ディールス・アルダー反応
+	共役ジエンにアルケンが付加して6員環構造を生じる反応、[4+2]環状付加反応 \\
+F \\
+Friedel-Crafts Acylation	フリーデル・クラフツ アシル化反応
+	求電子芳香族置換によるアシル化反応 \\
+Friedel-Crafts Alkylation	フリーデル・クラフツ アルキル化反応
+	求電子芳香族置換によるアルキル化反応 \\
+G \\
+Gabriel Amine Synthesis	ガブリエルアミン合成反応
+	ハロゲン化アルキルとフタルイミドカリウムから一級アミンを合成する反応 \\
+H \\
+Horner-Wadsworth-Emmons (HWE) Reaction	ホーナー・ワズワース・エモンス反応
+	ホスホン酸ジエステルのイリドがアルデヒドまたはケトンとWittig反応類似の機構を経てα,β-不飽和エステルが得られる反応 \\
+J \\
+Jones Oxidation	ジョーンズ酸化反応
+	酸化クロム(VI)を用いたアルコールの酸化反応 \\
+K \\
+Knoevenagel Condensation	クネーフェナーゲル縮合反応
+	活性メチレン化合物をアルデヒド/ケトンと縮合させてアルケンを得る反応 \\
+M \\
+Malaprade Glycol Oxidative Cleavage	マラプラード グリコール酸化開裂反応
+	過よう素酸もしくは過よう素酸ナトリウムを用いる1,2-ジオール(グリコール)の酸化的開裂反応 \\
+Mannich Reaction	マンニッヒ反応
+	第二級アミン・アルデヒド・ケトンを酸性条件下で反応させ、β-アミノカルボニル化合物を得る反応 \\ 
+Mitsunobu Reaction	光延反応
+	一級/二級アルコールをアゾカルボン酸エステルとトリフェニルホスフィンで活性化して行なうSN2反応 \\
+Mizoroki-Heck Reaction	溝呂木・ヘック反応
+	Pd(0)触媒下で、ハロゲン化アリール/アルケニルを末端オレフィンとクロスカップリングさせ、置換オレフィンを合成する反応 \\
+Mukaiyama Aldol Reaction	向山アルドール反応
+	ルイス酸触媒を用いたシリルエノールエーテルとカルボニル化合物とのアルドール反応 \\
+N \\
+Negishi Cross Coupling	根岸クロスカップリング反応
+	Pd(0)もしくはNi触媒下で進行する有機亜鉛化合物と有機ハロゲン化物のクロスカップリング反応 \\
+P \\
+Prilezhaev Epoxidation	プリリツェフ エポキシ化反応
+	過酸を用いてオレフィンをエポキシドに変換する反応 \\
+R \\
+Robinson Annulation	ロビンソン環形成反応
+	Wieland-Miescherケトンを合成する方法 \\
+S \\
+Sandmeyer Reaction	ザンドマイヤー反応
+	Cu(I)イオン存在下での芳香族ジアゾ化合物の置換基変換反応 \\
+Sharpless-Katsuki Asymmetric Epoxidation	シャープレス・香月不斉エポキシ化反応
+	アリルアルコールの不斉エポキシ化 \\
+Sonogashira-Hagihara Cross Coupling	薗頭・萩原クロスカップリング反応
+	ハロゲン化アリール/ハロアルカンと、末端アルキンのクロスカップリング反応 \\
+Swern Oxidation	スワーン酸化反応
+	ジメチルスルホキシド(DMSO)と塩化オキサリル系によるアルコールの酸化反応 \\
+T \\
+Tsuji-Trost Reaction	辻・トロスト反応
+	Pd(0)触媒下、π－アリルパラジウム中間体を経由するアリル位置換反応 \\
+V \\
+Vilsmeier-Haack Reaction	ヴィルスマイヤー・ハック反応
+	DMFとオキシ塩化リン(POCl3)を用いたホルミル化反応 \\
+W \\
+Welliamson ether synthesis	ウィリアムソンエーテル合成
+	アルコキシド/フェノラートとハロゲン化アルキルを経由するエーテルの合成反応 \\
+Wittig Reaction	ウィッティヒ反応
+	リンイリドとカルボニル化合物からアルケンを合成する反応 \\
+Wohl-Ziegler Bromination	ウォール・チーグラー臭素化反応
+	N-コハク酸イミド(NBS)による臭素化反応 \\
+Wolff-Kishner Reduction	ウォルフ・キシュナー還元反応
+	アルデヒドやケトンをヒドラジンと反応させ、ヒドラゾン経由によるメチレンへの還元反応\\
 
 \begin{table}
 \begin{center}
